@@ -7,6 +7,9 @@
 body {
 	background-color: black;
 }
+i {
+	cursor: pointer;
+}
 .post-container {
 	background-color: white;
 	width: 500px;
@@ -59,4 +62,16 @@ h1 {
 }
 .post-description {
 	padding: 0.8rem;
+}
+.fa-heart:hover {
+	color: rgb(198, 78, 78);
+}
+.fa-comment:hover {
+	color: rgb(196, 191, 191);
+}
+.fa-paper-plane:hover {
+	color: rgb(96, 96, 184);
+}
+.fa-bookmark:hover {
+	color: rgb(172, 172, 74);
 }
